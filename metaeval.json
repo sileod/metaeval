@@ -935,23 +935,6 @@
     ],
     "num_labels":2
   },
-  "ax":{
-    "task_tuple":[
-      "glue",
-      "ax"
-    ],
-    "text_fields":[
-      "premise",
-      "hypothesis"
-    ],
-    "label_fields":[
-      "label"
-    ],
-    "split_keys":[
-      "test"
-    ],
-    "num_labels":3
-  },
   "yelp_review_full":{
     "task_tuple":[
       "yelp_review_full",
@@ -1272,40 +1255,6 @@
       "test",
       "train",
       "validation"
-    ],
-    "num_labels":2
-  },
-  "axb":{
-    "task_tuple":[
-      "super_glue",
-      "axb"
-    ],
-    "text_fields":[
-      "sentence1",
-      "sentence2"
-    ],
-    "label_fields":[
-      "label"
-    ],
-    "split_keys":[
-      "test"
-    ],
-    "num_labels":2
-  },
-  "axg":{
-    "task_tuple":[
-      "super_glue",
-      "axg"
-    ],
-    "text_fields":[
-      "premise",
-      "hypothesis"
-    ],
-    "label_fields":[
-      "label"
-    ],
-    "split_keys":[
-      "test"
     ],
     "num_labels":2
   },
@@ -1720,38 +1669,6 @@
     "split_keys":[
       "test",
       "train"
-    ],
-    "num_labels":2
-  },
-  "wsc285":{
-    "task_tuple":[
-      "winograd_wsc",
-      "wsc285"
-    ],
-    "text_fields":[
-      "text"
-    ],
-    "label_fields":[
-      "label"
-    ],
-    "split_keys":[
-      "test"
-    ],
-    "num_labels":2
-  },
-  "wsc273":{
-    "task_tuple":[
-      "winograd_wsc",
-      "wsc273"
-    ],
-    "text_fields":[
-      "text"
-    ],
-    "label_fields":[
-      "label"
-    ],
-    "split_keys":[
-      "test"
     ],
     "num_labels":2
   },
