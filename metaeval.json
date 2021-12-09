@@ -20,7 +20,7 @@
   },
   "commonsense":{
     "task_tuple":[
-      "ethics",
+      "metaeval\/ethics",
       "commonsense"
     ],
     "text_fields":[
@@ -38,7 +38,7 @@
   },
   "deontology":{
     "task_tuple":[
-      "ethics",
+      "metaeval\/ethics",
       "deontology"
     ],
     "text_fields":[
@@ -56,7 +56,7 @@
   },
   "justice":{
     "task_tuple":[
-      "ethics",
+      "metaeval\/ethics",
       "justice"
     ],
     "text_fields":[
@@ -74,7 +74,7 @@
   },
   "utilitarianism":{
     "task_tuple":[
-      "ethics",
+      "metaeval\/ethics",
       "utilitarianism"
     ],
     "text_fields":[
@@ -92,7 +92,7 @@
   },
   "virtue":{
     "task_tuple":[
-      "ethics",
+      "metaeval\/ethics",
       "virtue"
     ],
     "text_fields":[
@@ -624,7 +624,7 @@
   },
   "sentiment_nuclear_power":{
     "task_tuple":[
-      "crowdflower",
+      "metaeval\/crowdflower",
       "sentiment_nuclear_power"
     ],
     "text_fields":[
@@ -640,7 +640,7 @@
   },
   "tweet_global_warming":{
     "task_tuple":[
-      "crowdflower",
+      "metaeval\/crowdflower",
       "tweet_global_warming"
     ],
     "text_fields":[
@@ -656,7 +656,7 @@
   },
   "airline-sentiment":{
     "task_tuple":[
-      "crowdflower",
+      "metaeval\/crowdflower",
       "airline-sentiment"
     ],
     "text_fields":[
@@ -672,7 +672,7 @@
   },
   "corporate-messaging":{
     "task_tuple":[
-      "crowdflower",
+      "metaeval\/crowdflower",
       "corporate-messaging"
     ],
     "text_fields":[
@@ -688,7 +688,7 @@
   },
   "economic-news":{
     "task_tuple":[
-      "crowdflower",
+      "metaeval\/crowdflower",
       "economic-news"
     ],
     "text_fields":[
@@ -704,7 +704,7 @@
   },
   "political-media-audience":{
     "task_tuple":[
-      "crowdflower",
+      "metaeval\/crowdflower",
       "political-media-audience"
     ],
     "text_fields":[
@@ -720,7 +720,7 @@
   },
   "political-media-bias":{
     "task_tuple":[
-      "crowdflower",
+      "metaeval\/crowdflower",
       "political-media-bias"
     ],
     "text_fields":[
@@ -736,7 +736,7 @@
   },
   "political-media-message":{
     "task_tuple":[
-      "crowdflower",
+      "metaeval\/crowdflower",
       "political-media-message"
     ],
     "text_fields":[
@@ -752,7 +752,7 @@
   },
   "text_emotion":{
     "task_tuple":[
-      "crowdflower",
+      "metaeval\/crowdflower",
       "text_emotion"
     ],
     "text_fields":[
@@ -971,7 +971,7 @@
   },
   "syntax_semantics":{
     "task_tuple":[
-      "blimp_classification",
+      "metaeval\/blimp_classification",
       "syntax_semantics"
     ],
     "text_fields":[
@@ -987,7 +987,7 @@
   },
   "syntax+semantics":{
     "task_tuple":[
-      "blimp_classification",
+      "metaeval\/blimp_classification",
       "syntax+semantics"
     ],
     "text_fields":[
@@ -1003,7 +1003,7 @@
   },
   "morphology":{
     "task_tuple":[
-      "blimp_classification",
+      "metaeval\/blimp_classification",
       "morphology"
     ],
     "text_fields":[
@@ -1019,7 +1019,7 @@
   },
   "syntax":{
     "task_tuple":[
-      "blimp_classification",
+      "metaeval\/blimp_classification",
       "syntax"
     ],
     "text_fields":[
@@ -1035,7 +1035,7 @@
   },
   "semantics":{
     "task_tuple":[
-      "blimp_classification",
+      "metaeval\/blimp_classification",
       "semantics"
     ],
     "text_fields":[
@@ -1051,7 +1051,7 @@
   },
   "recast_kg_relations":{
     "task_tuple":[
-      "recast",
+      "metaeval\/recast",
       "recast_kg_relations"
     ],
     "text_fields":[
@@ -1070,7 +1070,7 @@
   },
   "recast_puns":{
     "task_tuple":[
-      "recast",
+      "metaeval\/recast",
       "recast_puns"
     ],
     "text_fields":[
@@ -1089,7 +1089,7 @@
   },
   "recast_factuality":{
     "task_tuple":[
-      "recast",
+      "metaeval\/recast",
       "recast_factuality"
     ],
     "text_fields":[
@@ -1108,7 +1108,7 @@
   },
   "recast_verbnet":{
     "task_tuple":[
-      "recast",
+      "metaeval\/recast",
       "recast_verbnet"
     ],
     "text_fields":[
@@ -1127,7 +1127,7 @@
   },
   "recast_verbcorner":{
     "task_tuple":[
-      "recast",
+      "metaeval\/recast",
       "recast_verbcorner"
     ],
     "text_fields":[
@@ -1146,7 +1146,7 @@
   },
   "recast_ner":{
     "task_tuple":[
-      "recast",
+      "metaeval\/recast",
       "recast_ner"
     ],
     "text_fields":[
@@ -1165,7 +1165,7 @@
   },
   "recast_sentiment":{
     "task_tuple":[
-      "recast",
+      "metaeval\/recast",
       "recast_sentiment"
     ],
     "text_fields":[
@@ -1184,7 +1184,7 @@
   },
   "recast_megaveridicality":{
     "task_tuple":[
-      "recast",
+      "metaeval\/recast",
       "recast_megaveridicality"
     ],
     "text_fields":[
@@ -1327,7 +1327,7 @@
   },
   "emoji":{
     "task_tuple":[
-      "tweeteval",
+      "tweet_eval",
       "emoji"
     ],
     "text_fields":[
@@ -1345,7 +1345,7 @@
   },
   "hate":{
     "task_tuple":[
-      "tweeteval",
+      "tweet_eval",
       "hate"
     ],
     "text_fields":[
@@ -1363,7 +1363,7 @@
   },
   "irony":{
     "task_tuple":[
-      "tweeteval",
+      "tweet_eval",
       "irony"
     ],
     "text_fields":[
@@ -1381,7 +1381,7 @@
   },
   "offensive":{
     "task_tuple":[
-      "tweeteval",
+      "tweet_eval",
       "offensive"
     ],
     "text_fields":[
@@ -1399,7 +1399,7 @@
   },
   "sentiment":{
     "task_tuple":[
-      "tweeteval",
+      "tweet_eval",
       "sentiment"
     ],
     "text_fields":[
@@ -1417,7 +1417,7 @@
   },
   "stance":{
     "task_tuple":[
-      "tweeteval",
+      "tweet_eval",
       "stance"
     ],
     "text_fields":[
