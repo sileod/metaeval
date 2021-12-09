@@ -1530,7 +1530,7 @@
   },
   "subj_number":{
     "task_tuple":[
-      "linguisticprobing",
+      "metaeval\/linguisticprobing",
       "subj_number"
     ],
     "text_fields":[
@@ -1548,7 +1548,7 @@
   },
   "obj_number":{
     "task_tuple":[
-      "linguisticprobing",
+      "metaeval\/linguisticprobing",
       "obj_number"
     ],
     "text_fields":[
@@ -1566,7 +1566,7 @@
   },
   "past_present":{
     "task_tuple":[
-      "linguisticprobing",
+      "metaeval\/linguisticprobing",
       "past_present"
     ],
     "text_fields":[
@@ -1584,7 +1584,7 @@
   },
   "sentence_length":{
     "task_tuple":[
-      "linguisticprobing",
+      "metaeval\/linguisticprobing",
       "sentence_length"
     ],
     "text_fields":[
@@ -1602,7 +1602,7 @@
   },
   "top_constituents":{
     "task_tuple":[
-      "linguisticprobing",
+      "metaeval\/linguisticprobing",
       "top_constituents"
     ],
     "text_fields":[
@@ -1620,7 +1620,7 @@
   },
   "tree_depth":{
     "task_tuple":[
-      "linguisticprobing",
+      "metaeval\/linguisticprobing",
       "tree_depth"
     ],
     "text_fields":[
@@ -1638,7 +1638,7 @@
   },
   "coordination_inversion":{
     "task_tuple":[
-      "linguisticprobing",
+      "metaeval\/linguisticprobing",
       "coordination_inversion"
     ],
     "text_fields":[
@@ -1656,7 +1656,7 @@
   },
   "odd_man_out":{
     "task_tuple":[
-      "linguisticprobing",
+      "metaeval\/linguisticprobing",
       "odd_man_out"
     ],
     "text_fields":[
@@ -1674,7 +1674,7 @@
   },
   "bigram_shift":{
     "task_tuple":[
-      "linguisticprobing",
+      "metaeval\/linguisticprobing",
       "bigram_shift"
     ],
     "text_fields":[
