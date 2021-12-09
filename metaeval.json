@@ -1,6 +1,9 @@
 {
   "health_fact":{
-    "task_tuple":"health_fact\/default",
+    "task_tuple":[
+      "health_fact",
+      "default"
+    ],
     "text_fields":[
       "claim",
       "main_text"
@@ -16,7 +19,10 @@
     "num_labels":4
   },
   "commonsense":{
-    "task_tuple":"ethics\/commonsense",
+    "task_tuple":[
+      "ethics",
+      "commonsense"
+    ],
     "text_fields":[
       "text"
     ],
@@ -31,7 +37,10 @@
     "num_labels":2
   },
   "deontology":{
-    "task_tuple":"ethics\/deontology",
+    "task_tuple":[
+      "ethics",
+      "deontology"
+    ],
     "text_fields":[
       "text"
     ],
@@ -46,7 +55,10 @@
     "num_labels":2
   },
   "justice":{
-    "task_tuple":"ethics\/justice",
+    "task_tuple":[
+      "ethics",
+      "justice"
+    ],
     "text_fields":[
       "text"
     ],
@@ -61,7 +73,10 @@
     "num_labels":2
   },
   "utilitarianism":{
-    "task_tuple":"ethics\/utilitarianism",
+    "task_tuple":[
+      "ethics",
+      "utilitarianism"
+    ],
     "text_fields":[
       "text"
     ],
@@ -76,7 +91,10 @@
     "num_labels":2
   },
   "virtue":{
-    "task_tuple":"ethics\/virtue",
+    "task_tuple":[
+      "ethics",
+      "virtue"
+    ],
     "text_fields":[
       "sentence1",
       "sentence2"
@@ -92,7 +110,10 @@
     "num_labels":2
   },
   "discovery":{
-    "task_tuple":"discovery\/discovery",
+    "task_tuple":[
+      "discovery",
+      "discovery"
+    ],
     "text_fields":[
       "sentence1",
       "sentence2"
@@ -108,7 +129,10 @@
     "num_labels":174
   },
   "binary":{
-    "task_tuple":"ethos\/binary",
+    "task_tuple":[
+      "ethos",
+      "binary"
+    ],
     "text_fields":[
       "text"
     ],
@@ -121,7 +145,10 @@
     "num_labels":2
   },
   "emotion":{
-    "task_tuple":"emotion\/default",
+    "task_tuple":[
+      "emotion",
+      "default"
+    ],
     "text_fields":[
       "text"
     ],
@@ -136,7 +163,10 @@
     "num_labels":6
   },
   "hate_speech18":{
-    "task_tuple":"hate_speech18\/default",
+    "task_tuple":[
+      "hate_speech18",
+      "default"
+    ],
     "text_fields":[
       "text"
     ],
@@ -149,7 +179,10 @@
     "num_labels":4
   },
   "verifiability":{
-    "task_tuple":"pragmeval\/verifiability",
+    "task_tuple":[
+      "pragmeval",
+      "verifiability"
+    ],
     "text_fields":[
       "sentence"
     ],
@@ -164,7 +197,10 @@
     "num_labels":3
   },
   "emobank-arousal":{
-    "task_tuple":"pragmeval\/emobank-arousal",
+    "task_tuple":[
+      "pragmeval",
+      "emobank-arousal"
+    ],
     "text_fields":[
       "sentence"
     ],
@@ -179,7 +215,10 @@
     "num_labels":2
   },
   "switchboard":{
-    "task_tuple":"pragmeval\/switchboard",
+    "task_tuple":[
+      "pragmeval",
+      "switchboard"
+    ],
     "text_fields":[
       "sentence"
     ],
@@ -194,7 +233,10 @@
     "num_labels":41
   },
   "persuasiveness-eloquence":{
-    "task_tuple":"pragmeval\/persuasiveness-eloquence",
+    "task_tuple":[
+      "pragmeval",
+      "persuasiveness-eloquence"
+    ],
     "text_fields":[
       "sentence1",
       "sentence2"
@@ -210,7 +252,10 @@
     "num_labels":2
   },
   "mrda":{
-    "task_tuple":"pragmeval\/mrda",
+    "task_tuple":[
+      "pragmeval",
+      "mrda"
+    ],
     "text_fields":[
       "sentence"
     ],
@@ -225,7 +270,10 @@
     "num_labels":51
   },
   "gum":{
-    "task_tuple":"pragmeval\/gum",
+    "task_tuple":[
+      "pragmeval",
+      "gum"
+    ],
     "text_fields":[
       "sentence1",
       "sentence2"
@@ -241,7 +289,10 @@
     "num_labels":17
   },
   "emergent":{
-    "task_tuple":"pragmeval\/emergent",
+    "task_tuple":[
+      "pragmeval",
+      "emergent"
+    ],
     "text_fields":[
       "sentence1",
       "sentence2"
@@ -257,7 +308,10 @@
     "num_labels":3
   },
   "persuasiveness-relevance":{
-    "task_tuple":"pragmeval\/persuasiveness-relevance",
+    "task_tuple":[
+      "pragmeval",
+      "persuasiveness-relevance"
+    ],
     "text_fields":[
       "sentence1",
       "sentence2"
@@ -273,7 +327,10 @@
     "num_labels":2
   },
   "persuasiveness-specificity":{
-    "task_tuple":"pragmeval\/persuasiveness-specificity",
+    "task_tuple":[
+      "pragmeval",
+      "persuasiveness-specificity"
+    ],
     "text_fields":[
       "sentence1",
       "sentence2"
@@ -289,7 +346,10 @@
     "num_labels":2
   },
   "persuasiveness-strength":{
-    "task_tuple":"pragmeval\/persuasiveness-strength",
+    "task_tuple":[
+      "pragmeval",
+      "persuasiveness-strength"
+    ],
     "text_fields":[
       "sentence1",
       "sentence2"
@@ -305,7 +365,10 @@
     "num_labels":2
   },
   "emobank-dominance":{
-    "task_tuple":"pragmeval\/emobank-dominance",
+    "task_tuple":[
+      "pragmeval",
+      "emobank-dominance"
+    ],
     "text_fields":[
       "sentence"
     ],
@@ -320,7 +383,10 @@
     "num_labels":2
   },
   "squinky-implicature":{
-    "task_tuple":"pragmeval\/squinky-implicature",
+    "task_tuple":[
+      "pragmeval",
+      "squinky-implicature"
+    ],
     "text_fields":[
       "sentence"
     ],
@@ -335,7 +401,10 @@
     "num_labels":2
   },
   "sarcasm":{
-    "task_tuple":"pragmeval\/sarcasm",
+    "task_tuple":[
+      "pragmeval",
+      "sarcasm"
+    ],
     "text_fields":[
       "sentence1",
       "sentence2"
@@ -351,7 +420,10 @@
     "num_labels":2
   },
   "squinky-formality":{
-    "task_tuple":"pragmeval\/squinky-formality",
+    "task_tuple":[
+      "pragmeval",
+      "squinky-formality"
+    ],
     "text_fields":[
       "sentence"
     ],
@@ -366,7 +438,10 @@
     "num_labels":2
   },
   "stac":{
-    "task_tuple":"pragmeval\/stac",
+    "task_tuple":[
+      "pragmeval",
+      "stac"
+    ],
     "text_fields":[
       "sentence1",
       "sentence2"
@@ -382,7 +457,10 @@
     "num_labels":18
   },
   "pdtb":{
-    "task_tuple":"pragmeval\/pdtb",
+    "task_tuple":[
+      "pragmeval",
+      "pdtb"
+    ],
     "text_fields":[
       "sentence1",
       "sentence2"
@@ -398,7 +476,10 @@
     "num_labels":16
   },
   "persuasiveness-premisetype":{
-    "task_tuple":"pragmeval\/persuasiveness-premisetype",
+    "task_tuple":[
+      "pragmeval",
+      "persuasiveness-premisetype"
+    ],
     "text_fields":[
       "sentence1",
       "sentence2"
@@ -414,7 +495,10 @@
     "num_labels":8
   },
   "squinky-informativeness":{
-    "task_tuple":"pragmeval\/squinky-informativeness",
+    "task_tuple":[
+      "pragmeval",
+      "squinky-informativeness"
+    ],
     "text_fields":[
       "sentence"
     ],
@@ -429,7 +513,10 @@
     "num_labels":2
   },
   "persuasiveness-claimtype":{
-    "task_tuple":"pragmeval\/persuasiveness-claimtype",
+    "task_tuple":[
+      "pragmeval",
+      "persuasiveness-claimtype"
+    ],
     "text_fields":[
       "sentence1",
       "sentence2"
@@ -445,7 +532,10 @@
     "num_labels":3
   },
   "emobank-valence":{
-    "task_tuple":"pragmeval\/emobank-valence",
+    "task_tuple":[
+      "pragmeval",
+      "emobank-valence"
+    ],
     "text_fields":[
       "sentence"
     ],
@@ -460,7 +550,10 @@
     "num_labels":2
   },
   "hope_edi":{
-    "task_tuple":"hope_edi\/english",
+    "task_tuple":[
+      "hope_edi",
+      "english"
+    ],
     "text_fields":[
       "text"
     ],
@@ -474,7 +567,10 @@
     "num_labels":3
   },
   "snli":{
-    "task_tuple":"snli\/plain_text",
+    "task_tuple":[
+      "snli",
+      "plain_text"
+    ],
     "text_fields":[
       "premise",
       "hypothesis"
@@ -490,7 +586,10 @@
     "num_labels":3
   },
   "paws":{
-    "task_tuple":"paws\/labeled_final",
+    "task_tuple":[
+      "paws",
+      "labeled_final"
+    ],
     "text_fields":[
       "sentence1",
       "sentence2"
@@ -506,7 +605,10 @@
     "num_labels":2
   },
   "imdb":{
-    "task_tuple":"imdb\/plain_text",
+    "task_tuple":[
+      "imdb",
+      "plain_text"
+    ],
     "text_fields":[
       "text"
     ],
@@ -521,7 +623,10 @@
     "num_labels":2
   },
   "sentiment_nuclear_power":{
-    "task_tuple":"crowdflower\/sentiment_nuclear_power",
+    "task_tuple":[
+      "crowdflower",
+      "sentiment_nuclear_power"
+    ],
     "text_fields":[
       "text"
     ],
@@ -534,7 +639,10 @@
     "num_labels":4
   },
   "tweet_global_warming":{
-    "task_tuple":"crowdflower\/tweet_global_warming",
+    "task_tuple":[
+      "crowdflower",
+      "tweet_global_warming"
+    ],
     "text_fields":[
       "text"
     ],
@@ -547,7 +655,10 @@
     "num_labels":2
   },
   "airline-sentiment":{
-    "task_tuple":"crowdflower\/airline-sentiment",
+    "task_tuple":[
+      "crowdflower",
+      "airline-sentiment"
+    ],
     "text_fields":[
       "text"
     ],
@@ -560,7 +671,10 @@
     "num_labels":3
   },
   "corporate-messaging":{
-    "task_tuple":"crowdflower\/corporate-messaging",
+    "task_tuple":[
+      "crowdflower",
+      "corporate-messaging"
+    ],
     "text_fields":[
       "text"
     ],
@@ -573,7 +687,10 @@
     "num_labels":4
   },
   "economic-news":{
-    "task_tuple":"crowdflower\/economic-news",
+    "task_tuple":[
+      "crowdflower",
+      "economic-news"
+    ],
     "text_fields":[
       "text"
     ],
@@ -586,7 +703,10 @@
     "num_labels":3
   },
   "political-media-audience":{
-    "task_tuple":"crowdflower\/political-media-audience",
+    "task_tuple":[
+      "crowdflower",
+      "political-media-audience"
+    ],
     "text_fields":[
       "text"
     ],
@@ -599,7 +719,10 @@
     "num_labels":2
   },
   "political-media-bias":{
-    "task_tuple":"crowdflower\/political-media-bias",
+    "task_tuple":[
+      "crowdflower",
+      "political-media-bias"
+    ],
     "text_fields":[
       "text"
     ],
@@ -612,7 +735,10 @@
     "num_labels":2
   },
   "political-media-message":{
-    "task_tuple":"crowdflower\/political-media-message",
+    "task_tuple":[
+      "crowdflower",
+      "political-media-message"
+    ],
     "text_fields":[
       "text"
     ],
@@ -625,7 +751,10 @@
     "num_labels":9
   },
   "text_emotion":{
-    "task_tuple":"crowdflower\/text_emotion",
+    "task_tuple":[
+      "crowdflower",
+      "text_emotion"
+    ],
     "text_fields":[
       "text"
     ],
@@ -638,7 +767,10 @@
     "num_labels":13
   },
   "emo2019":{
-    "task_tuple":"emo\/emo2019",
+    "task_tuple":[
+      "emo",
+      "emo2019"
+    ],
     "text_fields":[
       "text"
     ],
@@ -652,7 +784,10 @@
     "num_labels":4
   },
   "cola":{
-    "task_tuple":"glue\/cola",
+    "task_tuple":[
+      "glue",
+      "cola"
+    ],
     "text_fields":[
       "sentence"
     ],
@@ -667,7 +802,10 @@
     "num_labels":2
   },
   "sst2":{
-    "task_tuple":"glue\/sst2",
+    "task_tuple":[
+      "glue",
+      "sst2"
+    ],
     "text_fields":[
       "sentence"
     ],
@@ -682,7 +820,10 @@
     "num_labels":2
   },
   "mrpc":{
-    "task_tuple":"glue\/mrpc",
+    "task_tuple":[
+      "glue",
+      "mrpc"
+    ],
     "text_fields":[
       "sentence1",
       "sentence2"
@@ -698,7 +839,10 @@
     "num_labels":2
   },
   "qqp":{
-    "task_tuple":"glue\/qqp",
+    "task_tuple":[
+      "glue",
+      "qqp"
+    ],
     "text_fields":[
       "question1",
       "question2"
@@ -714,7 +858,10 @@
     "num_labels":2
   },
   "mnli":{
-    "task_tuple":"glue\/mnli",
+    "task_tuple":[
+      "glue",
+      "mnli"
+    ],
     "text_fields":[
       "premise",
       "hypothesis"
@@ -732,7 +879,10 @@
     "num_labels":3
   },
   "qnli":{
-    "task_tuple":"glue\/qnli",
+    "task_tuple":[
+      "glue",
+      "qnli"
+    ],
     "text_fields":[
       "question",
       "sentence"
@@ -748,7 +898,10 @@
     "num_labels":2
   },
   "rte":{
-    "task_tuple":"glue\/rte",
+    "task_tuple":[
+      "glue",
+      "rte"
+    ],
     "text_fields":[
       "sentence1",
       "sentence2"
@@ -764,7 +917,10 @@
     "num_labels":2
   },
   "wnli":{
-    "task_tuple":"glue\/wnli",
+    "task_tuple":[
+      "glue",
+      "wnli"
+    ],
     "text_fields":[
       "sentence1",
       "sentence2"
@@ -780,7 +936,10 @@
     "num_labels":2
   },
   "ax":{
-    "task_tuple":"glue\/ax",
+    "task_tuple":[
+      "glue",
+      "ax"
+    ],
     "text_fields":[
       "premise",
       "hypothesis"
@@ -794,7 +953,10 @@
     "num_labels":3
   },
   "yelp_review_full":{
-    "task_tuple":"yelp_review_full\/yelp_review_full",
+    "task_tuple":[
+      "yelp_review_full",
+      "yelp_review_full"
+    ],
     "text_fields":[
       "text"
     ],
@@ -808,7 +970,10 @@
     "num_labels":5
   },
   "syntax_semantics":{
-    "task_tuple":"blimp_classification\/syntax_semantics",
+    "task_tuple":[
+      "blimp_classification",
+      "syntax_semantics"
+    ],
     "text_fields":[
       "text"
     ],
@@ -821,7 +986,10 @@
     "num_labels":2
   },
   "syntax+semantics":{
-    "task_tuple":"blimp_classification\/syntax+semantics",
+    "task_tuple":[
+      "blimp_classification",
+      "syntax+semantics"
+    ],
     "text_fields":[
       "text"
     ],
@@ -834,7 +1002,10 @@
     "num_labels":2
   },
   "morphology":{
-    "task_tuple":"blimp_classification\/morphology",
+    "task_tuple":[
+      "blimp_classification",
+      "morphology"
+    ],
     "text_fields":[
       "text"
     ],
@@ -847,7 +1018,10 @@
     "num_labels":2
   },
   "syntax":{
-    "task_tuple":"blimp_classification\/syntax",
+    "task_tuple":[
+      "blimp_classification",
+      "syntax"
+    ],
     "text_fields":[
       "text"
     ],
@@ -860,7 +1034,10 @@
     "num_labels":2
   },
   "semantics":{
-    "task_tuple":"blimp_classification\/semantics",
+    "task_tuple":[
+      "blimp_classification",
+      "semantics"
+    ],
     "text_fields":[
       "text"
     ],
@@ -873,7 +1050,10 @@
     "num_labels":2
   },
   "recast_kg_relations":{
-    "task_tuple":"recast\/recast_kg_relations",
+    "task_tuple":[
+      "recast",
+      "recast_kg_relations"
+    ],
     "text_fields":[
       "context",
       "hypothesis"
@@ -889,7 +1069,10 @@
     "num_labels":6
   },
   "recast_puns":{
-    "task_tuple":"recast\/recast_puns",
+    "task_tuple":[
+      "recast",
+      "recast_puns"
+    ],
     "text_fields":[
       "context",
       "hypothesis"
@@ -905,7 +1088,10 @@
     "num_labels":2
   },
   "recast_factuality":{
-    "task_tuple":"recast\/recast_factuality",
+    "task_tuple":[
+      "recast",
+      "recast_factuality"
+    ],
     "text_fields":[
       "context",
       "hypothesis"
@@ -921,7 +1107,10 @@
     "num_labels":2
   },
   "recast_verbnet":{
-    "task_tuple":"recast\/recast_verbnet",
+    "task_tuple":[
+      "recast",
+      "recast_verbnet"
+    ],
     "text_fields":[
       "context",
       "hypothesis"
@@ -937,7 +1126,10 @@
     "num_labels":2
   },
   "recast_verbcorner":{
-    "task_tuple":"recast\/recast_verbcorner",
+    "task_tuple":[
+      "recast",
+      "recast_verbcorner"
+    ],
     "text_fields":[
       "context",
       "hypothesis"
@@ -953,7 +1145,10 @@
     "num_labels":2
   },
   "recast_ner":{
-    "task_tuple":"recast\/recast_ner",
+    "task_tuple":[
+      "recast",
+      "recast_ner"
+    ],
     "text_fields":[
       "context",
       "hypothesis"
@@ -969,7 +1164,10 @@
     "num_labels":2
   },
   "recast_sentiment":{
-    "task_tuple":"recast\/recast_sentiment",
+    "task_tuple":[
+      "recast",
+      "recast_sentiment"
+    ],
     "text_fields":[
       "context",
       "hypothesis"
@@ -985,7 +1183,10 @@
     "num_labels":2
   },
   "recast_megaveridicality":{
-    "task_tuple":"recast\/recast_megaveridicality",
+    "task_tuple":[
+      "recast",
+      "recast_megaveridicality"
+    ],
     "text_fields":[
       "context",
       "hypothesis"
@@ -1001,7 +1202,10 @@
     "num_labels":2
   },
   "ag_news":{
-    "task_tuple":"ag_news\/default",
+    "task_tuple":[
+      "ag_news",
+      "default"
+    ],
     "text_fields":[
       "text"
     ],
@@ -1015,7 +1219,10 @@
     "num_labels":4
   },
   "boolq":{
-    "task_tuple":"super_glue\/boolq",
+    "task_tuple":[
+      "super_glue",
+      "boolq"
+    ],
     "text_fields":[
       "question",
       "passage"
@@ -1031,7 +1238,10 @@
     "num_labels":2
   },
   "cb":{
-    "task_tuple":"super_glue\/cb",
+    "task_tuple":[
+      "super_glue",
+      "cb"
+    ],
     "text_fields":[
       "premise",
       "hypothesis"
@@ -1047,7 +1257,10 @@
     "num_labels":3
   },
   "wic":{
-    "task_tuple":"super_glue\/wic",
+    "task_tuple":[
+      "super_glue",
+      "wic"
+    ],
     "text_fields":[
       "sentence1",
       "sentence2"
@@ -1063,7 +1276,10 @@
     "num_labels":2
   },
   "axb":{
-    "task_tuple":"super_glue\/axb",
+    "task_tuple":[
+      "super_glue",
+      "axb"
+    ],
     "text_fields":[
       "sentence1",
       "sentence2"
@@ -1077,7 +1293,10 @@
     "num_labels":2
   },
   "axg":{
-    "task_tuple":"super_glue\/axg",
+    "task_tuple":[
+      "super_glue",
+      "axg"
+    ],
     "text_fields":[
       "premise",
       "hypothesis"
@@ -1091,7 +1310,10 @@
     "num_labels":2
   },
   "Ade_corpus_v2_classification":{
-    "task_tuple":"ade_corpus_v2\/Ade_corpus_v2_classification",
+    "task_tuple":[
+      "ade_corpus_v2",
+      "Ade_corpus_v2_classification"
+    ],
     "text_fields":[
       "text"
     ],
@@ -1104,7 +1326,10 @@
     "num_labels":2
   },
   "emoji":{
-    "task_tuple":"tweeteval\/emoji",
+    "task_tuple":[
+      "tweeteval",
+      "emoji"
+    ],
     "text_fields":[
       "text"
     ],
@@ -1119,7 +1344,10 @@
     "num_labels":20
   },
   "hate":{
-    "task_tuple":"tweeteval\/hate",
+    "task_tuple":[
+      "tweeteval",
+      "hate"
+    ],
     "text_fields":[
       "text"
     ],
@@ -1134,7 +1362,10 @@
     "num_labels":2
   },
   "irony":{
-    "task_tuple":"tweeteval\/irony",
+    "task_tuple":[
+      "tweeteval",
+      "irony"
+    ],
     "text_fields":[
       "text"
     ],
@@ -1149,7 +1380,10 @@
     "num_labels":2
   },
   "offensive":{
-    "task_tuple":"tweeteval\/offensive",
+    "task_tuple":[
+      "tweeteval",
+      "offensive"
+    ],
     "text_fields":[
       "text"
     ],
@@ -1164,7 +1398,10 @@
     "num_labels":2
   },
   "sentiment":{
-    "task_tuple":"tweeteval\/sentiment",
+    "task_tuple":[
+      "tweeteval",
+      "sentiment"
+    ],
     "text_fields":[
       "text"
     ],
@@ -1179,7 +1416,10 @@
     "num_labels":3
   },
   "stance":{
-    "task_tuple":"tweeteval\/stance",
+    "task_tuple":[
+      "tweeteval",
+      "stance"
+    ],
     "text_fields":[
       "text"
     ],
@@ -1194,7 +1434,10 @@
     "num_labels":3
   },
   "trec":{
-    "task_tuple":"trec\/default",
+    "task_tuple":[
+      "trec",
+      "default"
+    ],
     "text_fields":[
       "text"
     ],
@@ -1208,7 +1451,10 @@
     "num_labels":47
   },
   "yelp_polarity":{
-    "task_tuple":"yelp_polarity\/plain_text",
+    "task_tuple":[
+      "yelp_polarity",
+      "plain_text"
+    ],
     "text_fields":[
       "text"
     ],
@@ -1222,7 +1468,10 @@
     "num_labels":2
   },
   "rotten_tomatoes":{
-    "task_tuple":"rotten_tomatoes\/default",
+    "task_tuple":[
+      "rotten_tomatoes",
+      "default"
+    ],
     "text_fields":[
       "text"
     ],
@@ -1237,7 +1486,10 @@
     "num_labels":2
   },
   "anli":{
-    "task_tuple":"anli\/plain_text",
+    "task_tuple":[
+      "anli",
+      "plain_text"
+    ],
     "text_fields":[
       "premise",
       "hypothesis"
@@ -1259,7 +1511,10 @@
     "num_labels":3
   },
   "liar":{
-    "task_tuple":"liar\/default",
+    "task_tuple":[
+      "liar",
+      "default"
+    ],
     "text_fields":[
       "context"
     ],
@@ -1274,7 +1529,10 @@
     "num_labels":6
   },
   "subj_number":{
-    "task_tuple":"linguisticprobing\/subj_number",
+    "task_tuple":[
+      "linguisticprobing",
+      "subj_number"
+    ],
     "text_fields":[
       "sentence"
     ],
@@ -1289,7 +1547,10 @@
     "num_labels":2
   },
   "obj_number":{
-    "task_tuple":"linguisticprobing\/obj_number",
+    "task_tuple":[
+      "linguisticprobing",
+      "obj_number"
+    ],
     "text_fields":[
       "sentence"
     ],
@@ -1304,7 +1565,10 @@
     "num_labels":2
   },
   "past_present":{
-    "task_tuple":"linguisticprobing\/past_present",
+    "task_tuple":[
+      "linguisticprobing",
+      "past_present"
+    ],
     "text_fields":[
       "sentence"
     ],
@@ -1319,7 +1583,10 @@
     "num_labels":2
   },
   "sentence_length":{
-    "task_tuple":"linguisticprobing\/sentence_length",
+    "task_tuple":[
+      "linguisticprobing",
+      "sentence_length"
+    ],
     "text_fields":[
       "sentence"
     ],
@@ -1334,7 +1601,10 @@
     "num_labels":6
   },
   "top_constituents":{
-    "task_tuple":"linguisticprobing\/top_constituents",
+    "task_tuple":[
+      "linguisticprobing",
+      "top_constituents"
+    ],
     "text_fields":[
       "sentence"
     ],
@@ -1349,7 +1619,10 @@
     "num_labels":20
   },
   "tree_depth":{
-    "task_tuple":"linguisticprobing\/tree_depth",
+    "task_tuple":[
+      "linguisticprobing",
+      "tree_depth"
+    ],
     "text_fields":[
       "sentence"
     ],
@@ -1364,7 +1637,10 @@
     "num_labels":7
   },
   "coordination_inversion":{
-    "task_tuple":"linguisticprobing\/coordination_inversion",
+    "task_tuple":[
+      "linguisticprobing",
+      "coordination_inversion"
+    ],
     "text_fields":[
       "sentence"
     ],
@@ -1379,7 +1655,10 @@
     "num_labels":2
   },
   "odd_man_out":{
-    "task_tuple":"linguisticprobing\/odd_man_out",
+    "task_tuple":[
+      "linguisticprobing",
+      "odd_man_out"
+    ],
     "text_fields":[
       "sentence"
     ],
@@ -1394,7 +1673,10 @@
     "num_labels":2
   },
   "bigram_shift":{
-    "task_tuple":"linguisticprobing\/bigram_shift",
+    "task_tuple":[
+      "linguisticprobing",
+      "bigram_shift"
+    ],
     "text_fields":[
       "sentence"
     ],
@@ -1409,7 +1691,10 @@
     "num_labels":2
   },
   "snips_built_in_intents":{
-    "task_tuple":"snips_built_in_intents\/default",
+    "task_tuple":[
+      "snips_built_in_intents",
+      "default"
+    ],
     "text_fields":[
       "text"
     ],
@@ -1422,7 +1707,10 @@
     "num_labels":10
   },
   "amazon_polarity":{
-    "task_tuple":"amazon_polarity\/amazon_polarity",
+    "task_tuple":[
+      "amazon_polarity",
+      "amazon_polarity"
+    ],
     "text_fields":[
       "content"
     ],
@@ -1436,7 +1724,10 @@
     "num_labels":2
   },
   "wsc285":{
-    "task_tuple":"winograd_wsc\/wsc285",
+    "task_tuple":[
+      "winograd_wsc",
+      "wsc285"
+    ],
     "text_fields":[
       "text"
     ],
@@ -1449,7 +1740,10 @@
     "num_labels":2
   },
   "wsc273":{
-    "task_tuple":"winograd_wsc\/wsc273",
+    "task_tuple":[
+      "winograd_wsc",
+      "wsc273"
+    ],
     "text_fields":[
       "text"
     ],
@@ -1462,7 +1756,10 @@
     "num_labels":2
   },
   "hover":{
-    "task_tuple":"hover\/default",
+    "task_tuple":[
+      "hover",
+      "default"
+    ],
     "text_fields":[
       "claim"
     ],
@@ -1477,7 +1774,10 @@
     "num_labels":2
   },
   "dbpedia_14":{
-    "task_tuple":"dbpedia_14\/dbpedia_14",
+    "task_tuple":[
+      "dbpedia_14",
+      "dbpedia_14"
+    ],
     "text_fields":[
       "content"
     ],
@@ -1491,7 +1791,10 @@
     "num_labels":14
   },
   "onestop_english":{
-    "task_tuple":"onestop_english\/default",
+    "task_tuple":[
+      "onestop_english",
+      "default"
+    ],
     "text_fields":[
       "text"
     ],
@@ -1504,7 +1807,10 @@
     "num_labels":3
   },
   "movie_rationales":{
-    "task_tuple":"movie_rationales\/default",
+    "task_tuple":[
+      "movie_rationales",
+      "default"
+    ],
     "text_fields":[
       "review"
     ],
@@ -1519,7 +1825,10 @@
     "num_labels":2
   },
   "hans":{
-    "task_tuple":"hans\/plain_text",
+    "task_tuple":[
+      "hans",
+      "plain_text"
+    ],
     "text_fields":[
       "premise",
       "hypothesis"
@@ -1534,7 +1843,10 @@
     "num_labels":2
   },
   "sem_eval_2014_task_1":{
-    "task_tuple":"sem_eval_2014_task_1\/default",
+    "task_tuple":[
+      "sem_eval_2014_task_1",
+      "default"
+    ],
     "text_fields":[
       "premise",
       "hypothesis"
@@ -1550,7 +1862,10 @@
     "num_labels":3
   },
   "eraser_multi_rc":{
-    "task_tuple":"eraser_multi_rc\/default",
+    "task_tuple":[
+      "eraser_multi_rc",
+      "default"
+    ],
     "text_fields":[
       "passage",
       "query_and_answer"
@@ -1566,7 +1881,10 @@
     "num_labels":2
   },
   "answer_selection_experiments":{
-    "task_tuple":"selqa\/answer_selection_experiments",
+    "task_tuple":[
+      "selqa",
+      "answer_selection_experiments"
+    ],
     "text_fields":[
       "question"
     ],
@@ -1581,7 +1899,10 @@
     "num_labels":2
   },
   "scitail":{
-    "task_tuple":"scitail\/tsv_format",
+    "task_tuple":[
+      "scitail",
+      "tsv_format"
+    ],
     "text_fields":[
       "premise",
       "hypothesis"
