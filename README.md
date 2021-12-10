@@ -9,6 +9,8 @@ A MetaEval dataset has a train/validation/test splits, a `label` key, and text k
 or
 `pip install git+https://github.com/sileod/metaeval.git`
 
+
+## Listing available tasks
 ```from metaeval import tasks_mapping, load_and_align
 tasks_mapping.head(3)
 ```
@@ -21,7 +23,9 @@ returns
 | deontology  | ['metaeval/ethics', 'deontology']  | ['text']               | ['label']      | ['test', 'train', 'validation'] |            2 |
 
 
-```dataset = load_and_align('health_fact')
+## Loading dataset with unified format
+```
+dataset = load_and_align('health_fact')
 ```
 returns a huggingface dataset with a unified format
 ```
