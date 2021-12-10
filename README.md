@@ -21,7 +21,8 @@ returns
 | deontology  | ['metaeval/ethics', 'deontology']  | ['text']               | ['label']      | ['test', 'train', 'validation'] |            2 |
 
 
-```dataset = load_and_align('health_fact')```
+```dataset = load_and_align('health_fact')
+```
 returns a huggingface dataset with a unified format
 ```
 DatasetDict({
@@ -39,3 +40,5 @@ DatasetDict({
     })
 })
 ```
+
+All datasets can then be used interchangeably with standard code that can handle `sentence` or `sentence1,sentence2` text keys.
