@@ -22,7 +22,7 @@ returns
 
 
 ```dataset = load_and_align('health_fact')```
-returns
+returns a huggingface dataset with a unified format
 ```
 DatasetDict({
     train: Dataset({
