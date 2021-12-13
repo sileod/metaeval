@@ -46,3 +46,17 @@ DatasetDict({
 ```
 
 All datasets can then be used interchangeably with standard code that can handle `sentence` or `sentence1,sentence2` text keys.
+
+
+## Citation
+
+```
+@misc{sileo2021analysis,
+      title={Analysis and Prediction of NLP Models Via Task Embeddings}, 
+      author={Damien Sileo and Marie-Francine Moens},
+      year={2021},
+      eprint={2112.05647},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
