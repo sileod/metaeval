@@ -1,6 +1,6 @@
 from setuptools import setup
 
-long_description = (this_directory / "README.md").read_text()
+# long_description = (this_directory / "README.md").read_text()
 
 setup(name='metaeval',
       version='0.1',
