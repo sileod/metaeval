@@ -10,7 +10,7 @@ or
 `pip install git+https://github.com/sileod/metaeval.git`
 
 
-## Listing available tasks
+## Listing available english tasks
 ```from metaeval import tasks_mapping, load_and_align
 tasks_mapping.head(3)
 ```
