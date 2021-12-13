@@ -11,9 +11,12 @@ or
 
 
 ## Listing available english tasks
-```from metaeval import tasks_mapping, load_and_align
+
+```
+from metaeval import tasks_mapping, load_and_align
 tasks_mapping.head(3)
 ```
+
 returns
 
 |             | task_tuple                         | text_fields            | label_fields   | split_keys                      |   num_labels |
