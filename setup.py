@@ -12,5 +12,5 @@ setup(name='metaeval',
       download_url='https://github.com/sileod/metaeval/archive/refs/tags/v0.tar.gz',
       py_modules=['metaeval'],
       long_description=long_description,
-      long_description_content_type='text/markdown'
+      long_description_content_type='text/markdown',
       zip_safe=False)
