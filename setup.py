@@ -6,7 +6,7 @@ long_description = (this_directory / "README.md").read_text()
 
 
 setup(name='metaeval',
-      version='0.1',
+      version='0.2',
       description='Aggregation of datasets for metalearning',
       url='https://github.com/sileod/metaeval',
       author='sileod',
