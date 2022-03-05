@@ -63,7 +63,7 @@ def load_and_align(dataset_name,tasks_mapping=tasks_mapping):
     dataset['validation'] = validation_test['train']
     dataset['test']=validation_test['test']
 
-  if 'validation' not in 'dataset' and 'test' not in dataset:
+  if 'validation' not in dataset and 'test' not in dataset:
     train_val_test = dataset["train"].train_test_split(seed=0)
     val_test = train_val_test["test"].train_test_split(0.5, seed=0)
     dataset["train"] = train_val_test["train"]
