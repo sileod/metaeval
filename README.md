@@ -12,7 +12,7 @@ or
 
 ## Listing available english tasks
 
-```
+```python
 from metaeval import tasks_mapping, load_and_align
 tasks_mapping.head(3)
 ```
@@ -27,11 +27,11 @@ returns
 
 
 ## Loading dataset with unified format
-```
+```python
 dataset = load_and_align('health_fact')
 ```
 returns a huggingface dataset with a unified format
-```
+```python
 DatasetDict({
     train: Dataset({
         features: ['sentence1', 'sentence2', 'label'],
