@@ -53,13 +53,11 @@ All datasets can then be used interchangeably with standard code that can handle
 
 ## Citation
 Accepted at LREC2022
-```
-@misc{sileo2021analysis,
+```bibtex
+@inproceedings{sileo2021analysis,
       title={Analysis and Prediction of NLP Models Via Task Embeddings}, 
       author={Damien Sileo and Marie-Francine Moens},
-      year={2021},
-      eprint={2112.05647},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+      booktitle = "Proceedings of the 12th Language Resources and Evaluation Conference",
+      year={2022},
 }
 ```
