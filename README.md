@@ -52,7 +52,6 @@ All datasets can then be used interchangeably with standard code that can handle
 
 
 ## Citation
-Accepted at LREC2022
 ```bibtex
 @inproceedings{sileo2021analysis,
       title={Analysis and Prediction of NLP Models Via Task Embeddings}, 
